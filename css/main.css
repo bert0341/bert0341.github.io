@@ -1,0 +1,102 @@
+/* changing footer background color */
+footer{
+    background-color: #adb5bd;
+}
+
+/* adding hover, scale properties */
+#viking:hover{
+    transform: scale(1.5);
+    transition: 0.5s;
+}
+
+/* adding hover, scale properties */
+#poseidon:hover{
+    transform: scale(1.5);
+    transition: 0.5s;
+}
+
+/* adding hover, scale properties */
+#poster:hover{
+    transform: scale(1.5);
+    transition: 0.5s;
+}
+.me{
+    max-height: 600px;
+}
+/* applying responsive margins to social media icons */
+footer
+div
+a{
+    margin: 0 1%;
+}
+
+/* adjusting footer spacing from content */
+.foot{
+    margin-top: 10%;
+}
+/* changing all anchor tags font */
+a{
+    font-family: 'Lobster', cursive;
+}
+/* properties for home page boxes */
+.box{
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+/* making font size decrease whe nyou click on nav link */
+nav a:active{
+    font-size: 15px
+}
+/* tablet screen size */
+@media screen and (min-width: 768px) {
+    /* adding margins to both boxes */
+    .box-1{
+        margin-right: 8%;
+
+    }
+    
+    .box-2{
+        margin-left:8%;
+    }
+/* adjusting spacing of nav elements, using percent so it is responsive */
+ /* changing nav font size */
+    nav
+    div
+    a{
+        margin: 0 4%;
+        font-size: 20px;
+    }
+
+
+}
+/* desktop screen size */
+@media screen and (min-width: 992px) {
+    /* taking off margins off both boxes */
+    .box-1{
+        margin-left: 0% ;
+        margin-right: 12%;
+    }
+    
+    .box-2{
+        margin-left: 0%;
+        margin-right: 12%;
+    }
+    /* adding padding to each box */
+    .box{
+        padding-left: 4rem;
+        padding-right: 4rem
+    }
+    /* changing nav font size */
+    nav
+    div
+    a{
+        font-size: 25px;
+    }
+    /* enlarging all paragraph font size for desktop */
+    p{
+        font-size: 18px;
+    }
+}
+
