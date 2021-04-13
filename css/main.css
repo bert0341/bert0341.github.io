@@ -53,12 +53,13 @@ nav a:active{
 @media screen and (min-width: 768px) {
     /* adding margins to both boxes */
     .box-1{
-        margin-right: 8%;
+        margin-right: 4%;
+        margin-left: 4%;
 
     }
     
     .box-2{
-        margin-left:8%;
+        margin-left:4%;
     }
 /* adjusting spacing of nav elements, using percent so it is responsive */
  /* changing nav font size */
